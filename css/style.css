@@ -1,0 +1,286 @@
+/* line 1, ../../../../Desktop/sss/#source/scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* line 2, ../../../../Desktop/sss/#source/scss/style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 3, ../../../../Desktop/sss/#source/scss/style.scss */
+:focus, :active {
+  outline: none; }
+
+/* line 4, ../../../../Desktop/sss/#source/scss/style.scss */
+a:focus, a:active {
+  outline: none; }
+
+/* line 5, ../../../../Desktop/sss/#source/scss/style.scss */
+nav, footer, header, aside {
+  display: block; }
+
+/* line 6, ../../../../Desktop/sss/#source/scss/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 7, ../../../../Desktop/sss/#source/scss/style.scss */
+input, button, textarea {
+  font-family: inherit; }
+
+/* line 8, ../../../../Desktop/sss/#source/scss/style.scss */
+input::-ms-clear {
+  display: none; }
+
+/* line 9, ../../../../Desktop/sss/#source/scss/style.scss */
+button {
+  cursor: pointer; }
+
+/* line 10, ../../../../Desktop/sss/#source/scss/style.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* line 11, ../../../../Desktop/sss/#source/scss/style.scss */
+a, a:visited {
+  text-decoration: none; }
+
+/* line 12, ../../../../Desktop/sss/#source/scss/style.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 13, ../../../../Desktop/sss/#source/scss/style.scss */
+ul li {
+  list-style: none; }
+
+/* line 14, ../../../../Desktop/sss/#source/scss/style.scss */
+img {
+  vertical-align: top; }
+
+/* line 15, ../../../../Desktop/sss/#source/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/* line 17, ../../../../Desktop/sss/#source/scss/style.scss */
+[class*="__container"] {
+  max-width: 1057px;
+  margin: 0px auto;
+  padding: 0px 15px; }
+
+/* line 23, ../../../../Desktop/sss/#source/scss/style.scss */
+body {
+  background-color: #cfee1d; }
+
+/* line 27, ../../../../Desktop/sss/#source/scss/style.scss */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 31, ../../../../Desktop/sss/#source/scss/style.scss */
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px 0px 0px; }
+
+/* line 36, ../../../../Desktop/sss/#source/scss/style.scss */
+.menu__link {
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 700;
+  font-family: 'Prata', serif;
+  letter-spacing: 1px;
+  text-decoration: none; }
+  /* line 42, ../../../../Desktop/sss/#source/scss/style.scss */
+  .menu__link span {
+    color: #bd1414;
+    text-shadow: 1px 1px black;
+    font-size: 18px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+/* line 52, ../../../../Desktop/sss/#source/scss/style.scss */
+ul {
+  list-style-type: none; }
+
+/* line 53, ../../../../Desktop/sss/#source/scss/style.scss */
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 57, ../../../../Desktop/sss/#source/scss/style.scss */
+.legend {
+  padding: 20px 0px 0px 0px; }
+
+/* line 63, ../../../../Desktop/sss/#source/scss/style.scss */
+.legend__link {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #4400ff;
+  text-shadow: 1px 1px #fffb00;
+  font-size: 21px; }
+
+/* line 71, ../../../../Desktop/sss/#source/scss/style.scss */
+.image {
+  padding: 20px 0px 0px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+  /* line 72, ../../../../Desktop/sss/#source/scss/style.scss */
+  .image img {
+    max-width: 300px;
+    height: 500px; }
+
+/* line 78, ../../../../Desktop/sss/#source/scss/style.scss */
+.stishok__menu {
+  padding: 15px 5px 0px 5px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 30px;
+  color: #1c1fd1;
+  -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px white;
+          box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px white;
+  text-shadow: 1px 1px #82eeb3; }
+
+/* line 87, ../../../../Desktop/sss/#source/scss/style.scss */
+.audio {
+  padding: 5px 0px 0px 10px;
+  text-align: center; }
+
+/* line 91, ../../../../Desktop/sss/#source/scss/style.scss */
+.second__image {
+  padding: 20px 0px 5px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+  /* line 93, ../../../../Desktop/sss/#source/scss/style.scss */
+  .second__image img {
+    max-width: 300px;
+    height: 200px; }
+
+/* line 100, ../../../../Desktop/sss/#source/scss/style.scss */
+.congrat {
+  font-size: 16px;
+  color: #860404; }
+
+/* line 104, ../../../../Desktop/sss/#source/scss/style.scss */
+.congrat__menu {
+  background: aqua;
+  padding: 5px; }
+
+/* line 108, ../../../../Desktop/sss/#source/scss/style.scss */
+.second__sound {
+  padding: 15px 0px 10px 0px;
+  text-align: center; }
+
+/* line 114, ../../../../Desktop/sss/#source/scss/style.scss */
+.menu__leonardo {
+  text-align: center;
+  padding: 0px 0px 20px 0px; }
+
+/* line 119, ../../../../Desktop/sss/#source/scss/style.scss */
+.leonardo__image img {
+  max-width: 300px; }
+
+/* line 124, ../../../../Desktop/sss/#source/scss/style.scss */
+.stix {
+  text-align: center;
+  font-size: 19px;
+  line-height: 22px;
+  color: #da0243;
+  -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px white;
+          box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px white; }
+
+/* line 131, ../../../../Desktop/sss/#source/scss/style.scss */
+.video {
+  text-align: center; }
+  /* line 134, ../../../../Desktop/sss/#source/scss/style.scss */
+  .video iframe {
+    max-width: 300px;
+    margin: 0px auto; }
+
+/* line 140, ../../../../Desktop/sss/#source/scss/style.scss */
+.video__text {
+  text-align: center;
+  color: #14da02;
+  text-shadow: 1px 1px black;
+  font-size: 19px;
+  line-height: 22px;
+  padding: 5px; }
+
+/* line 148, ../../../../Desktop/sss/#source/scss/style.scss */
+.dota {
+  padding: 10px 0px 0px 0px;
+  text-align: center; }
+  /* line 151, ../../../../Desktop/sss/#source/scss/style.scss */
+  .dota img {
+    max-width: 300px; }
+
+/* line 155, ../../../../Desktop/sss/#source/scss/style.scss */
+.sky {
+  text-align: center;
+  font-size: 30px;
+  color: #0400ff;
+  text-shadow: 1px 1px red; }
+
+/* line 161, ../../../../Desktop/sss/#source/scss/style.scss */
+.shtorm {
+  margin: 10px 0px 0px 0px;
+  text-align: center; }
+  /* line 164, ../../../../Desktop/sss/#source/scss/style.scss */
+  .shtorm img {
+    max-width: 300px; }
+
+/* line 168, ../../../../Desktop/sss/#source/scss/style.scss */
+.fly__text {
+  text-align: center;
+  font-size: 20px;
+  color: purple;
+  text-shadow: 1px 1px #00eeff;
+  padding: 10px 0px 10px 0px; }
+
+/* line 175, ../../../../Desktop/sss/#source/scss/style.scss */
+.fly {
+  text-align: center; }
+  /* line 177, ../../../../Desktop/sss/#source/scss/style.scss */
+  .fly img {
+    max-width: 300px;
+    height: 300px; }
+
+/* line 181, ../../../../Desktop/sss/#source/scss/style.scss */
+.family {
+  text-align: center;
+  padding: 10px 0px 0px 0px; }
+  /* line 184, ../../../../Desktop/sss/#source/scss/style.scss */
+  .family img {
+    max-width: 300px;
+    height: 400px; }
+
+/* line 189, ../../../../Desktop/sss/#source/scss/style.scss */
+.family__text {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  font-size: 20px;
+  color: #9900ff; }
